@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2015", // or "ES6", "ES2016", etc.
+      "lib": ["ES2015", "DOM"], // Include DOM for browser environments
+      "module": "ES6", // Use ES6 modules
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist", // Output directory for compiled files
+      "moduleResolution": "Node"
+    },
+    "include": ["typescript/**/*"] // Specify the source files to be compiled
+  }
+  
